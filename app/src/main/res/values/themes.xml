@@ -4,6 +4,7 @@
 
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/face</item>
+        <item name="colorSecondary">@color/beck</item>
     </style>
 
     <style name="Theme.CheckPoint1" parent="Base.Theme.CheckPoint1" />

@@ -32,7 +32,7 @@
         tools:layout_editor_absoluteY="271dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="390dp"
+            android:layout_width="385dp"
             android:layout_height="50dp"
             android:hint="Número do celular ou email"
             android:hyphenationFrequency="normal"
@@ -44,21 +44,21 @@
         android:layout_width="390dp"
         android:layout_height="58dp"
         tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="341dp">
+        tools:layout_editor_absoluteY="336dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="390dp"
+            android:layout_width="385dp"
             android:layout_height="50dp"
             android:hint="Senha" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="390dp"
+        android:layout_width="385dp"
         android:layout_height="45dp"
         android:text="Entrar"
         tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="411dp" />
+        tools:layout_editor_absoluteY="402dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -70,10 +70,35 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="390dp"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="385dp"
         android:layout_height="45dp"
         android:text="Integrantes"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="661dp" />
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="607dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:text="Sobre"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:text="Ajuda"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="698dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="38dp"
+        android:layout_height="30dp"
+        android:text="Mais"
+        tools:layout_editor_absoluteX="265dp"
+        tools:layout_editor_absoluteY="698dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
