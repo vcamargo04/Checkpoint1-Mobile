@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="beck">#DCDCDC</color>
+    <color name="black">#FF000000</color>
+    <color name="face">#1b4d98</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">CheckPoint-1</string>
+    <style name="Base.Theme.CheckPoint1" parent="Theme.Material3.DayNight.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/face</item>
+        <item name="colorSecondary">@color/beck</item>
+    </style>
+    <style name="Theme.CheckPoint1" parent="Base.Theme.CheckPoint1"/>
+</resources>
